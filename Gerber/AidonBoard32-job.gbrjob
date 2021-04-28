@@ -7,15 +7,15 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-04-27T12:53:02+02:00"
+    "CreationDate":  "2021-04-28T14:38:11+02:00"
   },
   "GeneralSpecs":
   {
     "ProjectId":
     {
       "Name": "AidonBoard32",
-      "GUID": "4d657465-7242-46f6-9172-6433322e6b69",
-      "Revision": "2"
+      "GUID": "4169646f-6e42-46f6-9172-6433322e6b69",
+      "Revision": "1"
     },
     "Size":
     {
@@ -40,37 +40,37 @@
   "FilesAttributes":
   [
     {
-      "Path":  "AidonBoard32-F.Cu.gbr",
+      "Path":  "AidonBoard32-F_Cu.gbr",
       "FileFunction":  "Copper,L1,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AidonBoard32-B.Cu.gbr",
+      "Path":  "AidonBoard32-B_Cu.gbr",
       "FileFunction":  "Copper,L2,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AidonBoard32-F.SilkS.gbr",
+      "Path":  "AidonBoard32-F_SilkS.gbr",
       "FileFunction":  "Legend,Top",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AidonBoard32-B.SilkS.gbr",
+      "Path":  "AidonBoard32-B_SilkS.gbr",
       "FileFunction":  "Legend,Bot",
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "AidonBoard32-F.Mask.gbr",
+      "Path":  "AidonBoard32-F_Mask.gbr",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "AidonBoard32-B.Mask.gbr",
+      "Path":  "AidonBoard32-B_Mask.gbr",
       "FileFunction":  "SolderMask,Bot",
       "FilePolarity":  "Negative"
     },
     {
-      "Path":  "AidonBoard32-Edge.Cuts.gbr",
+      "Path":  "AidonBoard32-Edge_Cuts.gbr",
       "FileFunction":  "Profile",
       "FilePolarity":  "Positive"
     }
