@@ -5,4 +5,5 @@
   (lib (name Henrik-IC-Inverters)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/Henrik-IC-Inverters.lib)(options "")(descr ""))
   (lib (name harry)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/harry.lib)(options "")(descr ""))
   (lib (name 5555165-1)(type Legacy)(uri ${KICAD_CUSTOM_DIR}/library/5555165-1.lib)(options "")(descr ""))
+  (lib (name AidonBoard32-rescue)(type Legacy)(uri ${KIPRJMOD}/AidonBoard32-rescue.lib)(options "")(descr ""))
 )
