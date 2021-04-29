@@ -1257,10 +1257,10 @@ F 3 "" H 9450 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4400 2050 4400
-Connection ~ 2050 4400
+	1850 4400 2000 4400
+Connection ~ 2000 4400
 Wire Wire Line
-	2050 4400 2100 4400
+	2000 4400 2100 4400
 $Comp
 L power:VCC #PWR0103
 U 1 1 610B3EF6
@@ -1273,7 +1273,7 @@ F 3 "" H 10000 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2000 4350 2050 4400
+	2000 4350 2000 4400
 $Comp
 L power:VCC #PWR0102
 U 1 1 610A4F64

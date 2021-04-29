@@ -725,10 +725,6 @@ F 3 "" H 9450 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9450 2350 9450 2100
-Wire Wire Line
-	9450 1900 9450 1800
-Wire Wire Line
 	9450 2350 9650 2350
 Connection ~ 9450 2350
 Wire Wire Line
@@ -1074,18 +1070,6 @@ F 4 "C10487" H 1300 4150 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R10
-U 1 1 60C4F049
-P 9450 2000
-F 0 "R10" H 9456 2123 50  0000 L CNN
-F 1 "10K" H 9459 1889 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 2000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/2004232132_ROHM-Semicon-ESR03EZPF1002_C510087.pdf" H 9450 2000 50  0001 C CNN
-F 4 "C510087" H 9450 2000 50  0001 C CNN "LCSC"
-	1    9450 2000
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R11
 U 1 1 60C63B88
 P 9750 2350
@@ -1273,10 +1257,10 @@ F 3 "" H 9450 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 4400 2050 4400
-Connection ~ 2050 4400
+	1850 4400 2000 4400
+Connection ~ 2000 4400
 Wire Wire Line
-	2050 4400 2100 4400
+	2000 4400 2100 4400
 $Comp
 L power:VCC #PWR0103
 U 1 1 610B3EF6
@@ -1289,7 +1273,7 @@ F 3 "" H 10000 4700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2000 4350 2050 4400
+	2000 4350 2000 4400
 $Comp
 L power:VCC #PWR0102
 U 1 1 610A4F64
@@ -1313,5 +1297,21 @@ F 4 "C273617" H 8950 3950 50  0001 C CNN "LCSC"
 F 5 "TX LED / Blue" H 8950 3950 50  0001 C CNN "Description"
 	1    8950 3950
 	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9450 2350 9450 2100
+Wire Wire Line
+	9450 1900 9450 1800
+$Comp
+L Device:R_Small R10
+U 1 1 60C4F049
+P 9450 2000
+F 0 "R10" H 9456 2123 50  0000 L CNN
+F 1 "10K" H 9459 1889 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" H 9450 2000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2004232132_ROHM-Semicon-ESR03EZPF1002_C510087.pdf" H 9450 2000 50  0001 C CNN
+F 4 "C510087" H 9450 2000 50  0001 C CNN "LCSC"
+	1    9450 2000
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
