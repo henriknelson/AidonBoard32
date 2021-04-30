@@ -5,9 +5,9 @@
     {
       "Vendor":      "KiCad",
       "Application": "Pcbnew",
-      "Version":     "5.1.10-88a1d61d58~88~ubuntu20.10.1"
+      "Version":     "(5.1.9)-1"
     },
-    "CreationDate":  "2021-04-30T01:43:34+02:00"
+    "CreationDate":  "2021-04-30T15:53:42+02:00"
   },
   "GeneralSpecs":
   {
@@ -15,7 +15,7 @@
     {
       "Name": "AidonBoard32",
       "GUID": "4169646f-6e42-46f6-9172-6433322e6b69",
-      "Revision": "1"
+      "Revision": "2"
     },
     "Size":
     {
