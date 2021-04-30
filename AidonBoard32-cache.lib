@@ -1,13 +1,14 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# AidonBoard32-rescue_RJ12-Connector
+# Connector_RJ12
 #
-DEF AidonBoard32-rescue_RJ12-Connector J 0 40 Y Y 1 F N
+DEF Connector_RJ12 J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V R CNN
-F1 "AidonBoard32-rescue_RJ12-Connector" 100 450 50 H V L CNN
+F1 "Connector_RJ12" 100 450 50 H V L CNN
 F2 "" 0 25 50 V I C CNN
 F3 "" 0 25 50 V I C CNN
+ALIAS RJ12 RJ18 RJ25
 $FPLIST
  6P6C*
  RJ12*
@@ -403,6 +404,19 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_PWR_FLAG
+#
+DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 75 50 H I C CNN
+F1 "power_PWR_FLAG" 0 150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
+X pwr 1 0 0 0 U 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #

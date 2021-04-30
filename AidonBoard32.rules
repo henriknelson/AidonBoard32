@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 3425)
+    (start_pass_no 1023)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -66,12 +66,7 @@
     VBUS GND +3V3 "/D-" /D+ "/LED_RX" "/LED_TX" /RTS
     "/MCU_TX" "/MCU_RX" /DTR "Net-(D2-Pad1)" "Net-(D3-Pad1)" /IO13 /EN /IO0
     "/UART_RX" "Net-(D4-Pad1)" "Net-(Q2-Pad1)" "/HAN_OUT" +5V "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(R2-Pad1)"
-    "Net-(J1-Pad4)" "Net-(M1-Pad4)" "Net-(U2-Pad24)" "Net-(U2-Pad22)" "Net-(U2-Pad18)" "Net-(U2-Pad17)" "Net-(U2-Pad16)" "Net-(U2-Pad15)"
-    "Net-(U2-Pad12)" "Net-(U2-Pad11)" "Net-(U2-Pad10)" "Net-(U2-Pad1)" "Net-(U3-Pad4)" "Net-(U3-Pad5)" "Net-(U3-Pad6)" "Net-(U3-Pad7)"
-    "Net-(U3-Pad8)" "Net-(U3-Pad9)" "Net-(U3-Pad10)" "Net-(U3-Pad11)" "Net-(U3-Pad12)" "Net-(U3-Pad13)" "Net-(U3-Pad14)" "Net-(U3-Pad17)"
-    "Net-(U3-Pad18)" "Net-(U3-Pad19)" "Net-(U3-Pad20)" "Net-(U3-Pad21)" "Net-(U3-Pad22)" "Net-(U3-Pad23)" "Net-(U3-Pad24)" "Net-(U3-Pad26)"
-    "Net-(U3-Pad28)" "Net-(U3-Pad29)" "Net-(U3-Pad30)" "Net-(U3-Pad31)" "Net-(U3-Pad32)" "Net-(U3-Pad33)" "Net-(U3-Pad36)" "Net-(U3-Pad37)"
-    VCC "Net-(D2-Pad2)" "Net-(D5-Pad1)" "Net-(D6-Pad2)"
+    VCC "Net-(D5-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
